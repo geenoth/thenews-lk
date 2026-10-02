@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#009fe3" />
+  <rect x="76" y="76" width="360" height="360" rx="40" fill="#ffffff" />
+  <text x="256" y="215" text-anchor="middle" font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Inter, sans-serif" font-weight="700" font-size="52" fill="#383838" letter-spacing="-1">The</text>
+  <text x="256" y="295" text-anchor="middle" font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Inter, sans-serif" font-weight="800" font-size="64" letter-spacing="-1.5">
+    <tspan fill="#009fe3">News</tspan><tspan fill="#383838">.LK</tspan>
+  </text>
+</svg>

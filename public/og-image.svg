@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f7fc" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="1200" height="6" fill="#009fe3" />
+  
+  <!-- Subtle digital grid pattern -->
+  <g opacity="0.04" stroke="#000000" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="525" x2="1200" y2="525" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <!-- Centered Logo Representation -->
+  <g transform="translate(600, 240)">
+    <text text-anchor="middle" font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Inter, sans-serif" font-weight="800" font-size="96" letter-spacing="-3">
+      <tspan fill="#383838">The </tspan>
+      <tspan fill="#009fe3">News</tspan>
+      <tspan fill="#383838">.LK</tspan>
+    </text>
+  </g>
+
+  <!-- Tagline -->
+  <g transform="translate(600, 310)">
+    <text text-anchor="middle" font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Inter, sans-serif" font-weight="700" font-size="24" fill="#009fe3" letter-spacing="4">
+      NEWS AROUND THE CLOCK
+    </text>
+  </g>
+
+  <!-- Main Heading -->
+  <g transform="translate(600, 390)">
+    <text text-anchor="middle" font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Inter, sans-serif" font-weight="800" font-size="44" fill="#1e293b" letter-spacing="-1">
+      Your News. One Place.
+    </text>
+  </g>
+
+  <!-- Description -->
+  <g transform="translate(600, 445)">
+    <text text-anchor="middle" font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Inter, sans-serif" font-weight="400" font-size="22" fill="#64748b">
+      The News LK is bringing news from Sri Lanka and around the world, all in one place.
+    </text>
+  </g>
+
+  <!-- Domain Badge -->
+  <g transform="translate(600, 530)">
+    <rect x="-90" y="-18" width="180" height="36" rx="18" fill="#e8f5fd" />
+    <text text-anchor="middle" y="5" font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Inter, sans-serif" font-weight="600" font-size="16" fill="#009fe3" letter-spacing="0.5">
+      thenews.lk
+    </text>
+  </g>
+</svg>

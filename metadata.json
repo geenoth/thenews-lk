@@ -1,0 +1,8 @@
+{
+  "name": "The News LK",
+  "description": "The News LK brings news from Sri Lanka and around the world, all in one place.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The News LK | News Around the Clock</title>
+    <meta
+      name="description"
+      content="The News LK brings news from Sri Lanka and around the world, all in one place."
+    />
+    <meta name="theme-color" content="#009fe3" />
+    <link rel="canonical" href="https://thenews.lk" />
+    <link rel="icon" type="image/png" href="/Thenewslk_favicon.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://thenews.lk" />
+    <meta property="og:title" content="The News LK | News Around the Clock" />
+    <meta
+      property="og:description"
+      content="The News LK brings news from Sri Lanka and around the world, all in one place."
+    />
+    <meta property="og:site_name" content="The News LK" />
+    <meta property="og:image" content="/og-image.svg" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The News LK | News Around the Clock" />
+    <meta
+      name="twitter:description"
+      content="The News LK brings news from Sri Lanka and around the world, all in one place."
+    />
+    <meta name="twitter:image" content="/og-image.svg" />
+
+    <!-- Google Fonts: Plus Jakarta Sans for crisp editorial & digital news clarity -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "NewsMediaOrganization",
+            "@id": "https://thenews.lk/#organization",
+            "name": "The News LK",
+            "url": "https://thenews.lk",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://thenews.lk/Thenewslk_favicon.png"
+            },
+            "slogan": "News Around the Clock",
+            "sameAs": [
+              "https://facebook.com/TheNewsLK.Sinhala"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://thenews.lk/#website",
+            "url": "https://thenews.lk",
+            "name": "The News LK",
+            "description": "The News LK brings news from Sri Lanka and around the world, all in one place.",
+            "publisher": {
+              "@id": "https://thenews.lk/#organization"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="h-full bg-[#f8fafc] text-[#1e293b] antialiased selection:bg-[#009fe3]/20 selection:text-[#009fe3]">
+    <div id="root" class="h-full"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

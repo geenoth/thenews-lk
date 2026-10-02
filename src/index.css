@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --color-brand-cyan: #009fe3;
+  --color-brand-cyan-hover: #008ecc;
+  --color-brand-cyan-active: #007eb5;
+  --color-brand-charcoal: #383838;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle digital editorial background */
+.bg-editorial-grid {
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(0, 159, 227, 0.07) 0%, transparent 65%),
+    linear-gradient(to right, rgba(226, 232, 240, 0.4) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 232, 240, 0.4) 1px, transparent 1px);
+  background-size: 100% 100%, 48px 48px, 48px 48px;
+}
